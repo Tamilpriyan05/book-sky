@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book sky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>BOOKSKY</h1>
+        </div>
+
+        <div class="popupoverlay"></div>
+        <div class="popupbox">
+            <form>
+                <div>
+
+                    <label for="bookname">BOOK NAME</label>
+                    <input type="text" placeholder="BOOK NAME" id="bookname" />
+                </div>
+                <div>
+
+                    <label for="authorname">AUTHOR NAME</label>
+                    <input type="text" placeholder="AUTHOR NAME" id="authorname" />
+                </div>
+                <div>
+
+                    <label for="desrcpition">Desrcpition</label>
+                    <textarea name="" id="desrcpition" cols="25" rows="8"></textarea>
+                </div>
+                <button id="add">ADD</button>
+                <button id="cancel">CANCEL</button>
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="boxcontent">
+
+                <h2>BOOK NAME</h2>
+                <h3>AUTOR NAME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consequatur doloremque perferendis
+                    aperiam quidem quasi distinctio deleniti autem, ipsa sunt ea itaque tempore dolore nesciunt dolores
+                    doloribus quos quis. Tempore?</p>
+                <button onclick="deltebtn(event)">DELTE</button>
+            </div>
+        </div>
+
+        <button class="open">+</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

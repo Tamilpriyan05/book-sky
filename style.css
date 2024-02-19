@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+}
+
+.navbar h1{
+    padding: 10px;
+    background-color: hsl(0, 0%, 6%);
+    color: white;
+    border: none;
+}
+.popupoverlay{
+    display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: hsl(0, 0%, 29%);
+      opacity: 0.8;
+      z-index: 2;
+}
+
+.popupbox{
+    display: none;
+    position: absolute;
+    width: 500px;
+    padding: 15px 20px ;
+    background-color: white;
+    z-index: 4;
+    left: 30%;
+    top: 18%;
+}
+.popupbox input{
+    display: block;
+    padding: 5px;
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+}
+
+textarea{
+    display: block;
+    padding: 5px;
+    width: 90%;
+    margin: 5px;
+}
+
+.box{
+    padding: 5px 30px;
+}
+.boxcontent{
+    width: 300px;
+    padding: 10px;
+    border: solid 1px;
+    color: white;
+}
+h2{
+    letter-spacing: 5px;
+    color: red;
+    
+}
+h3{
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+p{
+    text-align: start;
+    font-size: 16px;
+}
+
+.open{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
